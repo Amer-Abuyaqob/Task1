@@ -11,3 +11,6 @@ Creates a new local Git repository in the current directory (folder) to start tr
 
 c. git commit:
 Saves (records) the staged changes into the local repository with a message describing what was changed.
+
+d. git push:
+Uploads the committed changes from rthe local repository to a remote repository.
