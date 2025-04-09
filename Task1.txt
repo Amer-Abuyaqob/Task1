@@ -8,3 +8,6 @@ Shows the current state of your working directory and staging area-- This shows:
 
 b. git init:
 Creates a new local Git repository in the current directory (folder) to start tracking changes.
+
+c. git commit:
+Saves (records) the staged changes into the local repository with a message describing what was changed.
