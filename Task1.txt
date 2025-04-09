@@ -1,0 +1,7 @@
+Q1) Explain the purpose of the following Git commands:
+
+a. git status:
+Shows the current state of your working directory and staging area-- This shows:-
+	* Untracked files (new files)
+	* Modified files
+	* Files already staged for commit.
