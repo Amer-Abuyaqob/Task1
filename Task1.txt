@@ -5,3 +5,6 @@ Shows the current state of your working directory and staging area-- This shows:
 	* Untracked files (new files)
 	* Modified files
 	* Files already staged for commit.
+
+b. git init:
+Creates a new local Git repository in the current directory (folder) to start tracking changes.
