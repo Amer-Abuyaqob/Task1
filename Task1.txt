@@ -32,3 +32,18 @@ Q3) Answer the following questions about code hosting providers.
 a. List two popular code hosting platforms besides GitHub.
 	1: GitLab
 	2: Bitbucket
+
+b. What key features do code hosting providers offer to enhance version
+control for both individual developers and collaborative development
+environments?
+
+	1: Repository Hosting
+	2: Branch Management
+	3: Commit History & Diffs
+	4: Pull/Merge Requests
+	5: Issue Tracking & Project Boards
+	6: Forking & Cloning
+	7: Code Scanning
+
+
+
