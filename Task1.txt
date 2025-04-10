@@ -1,9 +1,12 @@
+Theoretical Part:-
+~~~~~~~~~~~~~~~~~~~
+
 Q1) Explain the purpose of the following Git commands:
 
 a. [git status]:
 Shows the current state of the working directory and staging area-- This shows:-
-	* Untracked files (new files)
-	* Modified files
+	* Untracked files (new files).
+	* Modified files.
 	* Files already staged for commit.
 
 b. [git init]:
@@ -15,10 +18,11 @@ Saves (records) the staged changes into the local repository with a message desc
 d. [git push]:
 Uploads the committed changes from rthe local repository to a remote repository.
 
-*********************************************************************************
-Q2) 
+********************************************************************************************************************************************************************************************
+Q2) Explain whether you agree or disagree with Ahmed's statement. Provide
+reasons to support your answer?
 
-I disagree with Ahmed's statement
+I disagree with Ahmed's statement.
 
 New (untracked) files are not automatically included in commits unless explicitly added with [git add].
 
@@ -26,24 +30,24 @@ The [git add] command stages changes, and allows to selectively choose which mod
 
 Without staging we risk committing unintended changes.
 
-*********************************************************************************
+********************************************************************************************************************************************************************************************
 Q3) Answer the following questions about code hosting providers.
 
 a. List two popular code hosting platforms besides GitHub.
-	* GitLab
-	* Bitbucket
+	* GitLab.
+	* Bitbucket.
 
 b. What key features do code hosting providers offer to enhance version
 control for both individual developers and collaborative development
 environments?
 
-	* Repository Hosting
-	* Branch Management
-	* Commit History & Diffs
-	* Pull/Merge Requests
-	* Issue Tracking & Project Boards
-	* Forking & Cloning
-	* Code Scanning
+	* Repository Hosting.
+	* Branch Management.
+	* Commit History & Diffs.
+	* Pull/Merge Requests.
+	* Issue Tracking & Project Boards.
+	* Forking & Cloning.
+	* Code Scanning.
 
 c. True or False: A team can collaborate on a software project without relying
 on popular code hosting providers by setting up their own a self-hosted
@@ -52,7 +56,7 @@ server for version control.
 True.
 A team can absolutely collaborate on a software project without relying on platforms like GitHub, GitLab, or Bitbucket by self-hosting their own version control system.
 
-*********************************************************************************
+********************************************************************************************************************************************************************************************
 Q4) What does the -u flag in the git push -u origin main command signify, and
 how does it impact the behavior of the git push and git pull commands in
 subsequent usage?
@@ -72,3 +76,19 @@ Key Benefits:-
 	* Simplifies Commands: No need to repeatedly specify the remote/branch.
 	* Avoids Errors: Reduces mistakes from typos in remote/branch names.
 	* Branch Awareness: git status will show if the local branch is ahead/behind its upstream counterpart.
+
+____________________________________________________________________________________________________________________________________________________________________________________________
+Practical Part:-
+~~~~~~~~~~~~~~~~~
+
+Steps for connecting local repo to remote repo (GitHub) via "SSH key":-
+	
+	1) Create SSH key: Use [ssh-keygen -t ed25519 -C "YOUR_EMAIL"] in Git bash or PowerShell to create an SSH key.
+
+	2) Copy SSH key: Use [cat ~/.ssh/id_ed25519.pub] to get the SSH key we created then we copy the key.
+
+	3) Open GitHub settings: GitHub -> Settings -> SSH and GPG keys -> New SSH key.
+
+	4) Add SSH key to GitHub: Title="ANY_NAME", Key type="Authentication Key", Key="PASTE_SSH_KEY".
+
+	5) Connect repos: Run [git remote add origin "SSH_KEY"] using the SSH key of the remote repository on GitHub (git@github.com:"USER_NAME"/"REPOSITORY_NAME".git).
