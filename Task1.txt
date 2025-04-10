@@ -1,18 +1,18 @@
 Q1) Explain the purpose of the following Git commands:
 
-a. git status:
-Shows the current state of your working directory and staging area-- This shows:-
+a. [git status]:
+Shows the current state of the working directory and staging area-- This shows:-
 	* Untracked files (new files)
 	* Modified files
 	* Files already staged for commit.
 
-b. git init:
+b. [git init]:
 Creates a new local Git repository in the current directory (folder) to start tracking changes.
 
-c. git commit:
+c. [git commit]:
 Saves (records) the staged changes into the local repository with a message describing what was changed.
 
-d. git push:
+d. [git push]:
 Uploads the committed changes from rthe local repository to a remote repository.
 
 *********************************************************************************
@@ -30,27 +30,26 @@ Without staging we risk committing unintended changes.
 Q3) Answer the following questions about code hosting providers.
 
 a. List two popular code hosting platforms besides GitHub.
-	1: GitLab
-	2: Bitbucket
+	* GitLab
+	* Bitbucket
 
 b. What key features do code hosting providers offer to enhance version
 control for both individual developers and collaborative development
 environments?
 
-	1: Repository Hosting
-	2: Branch Management
-	3: Commit History & Diffs
-	4: Pull/Merge Requests
-	5: Issue Tracking & Project Boards
-	6: Forking & Cloning
-	7: Code Scanning
+	* Repository Hosting
+	* Branch Management
+	* Commit History & Diffs
+	* Pull/Merge Requests
+	* Issue Tracking & Project Boards
+	* Forking & Cloning
+	* Code Scanning
 
 c. True or False: A team can collaborate on a software project without relying
 on popular code hosting providers by setting up their own a self-hosted
 server for version control.
 
 True.
-
 A team can absolutely collaborate on a software project without relying on platforms like GitHub, GitLab, or Bitbucket by self-hosting their own version control system.
 
 *********************************************************************************
@@ -70,8 +69,6 @@ Automatically fetches and merges changes from origin/main into your local branch
 
 Key Benefits:-
 	
-	Simplifies Commands: No need to repeatedly specify the remote/branch.
-
-	Avoids Errors: Reduces mistakes from typos in remote/branch names.
-
-	Branch Awareness: git status will show if your local branch is ahead/behind its upstream counterpart.
+	* Simplifies Commands: No need to repeatedly specify the remote/branch.
+	* Avoids Errors: Reduces mistakes from typos in remote/branch names.
+	* Branch Awareness: git status will show if the local branch is ahead/behind its upstream counterpart.
