@@ -25,3 +25,10 @@ New (untracked) files are not automatically included in commits unless explicitl
 The [git add] command stages changes, and allows to selectively choose which modifications to include in a commit.
 
 Without staging we risk committing unintended changes.
+
+*********************************************************************************
+Q3) Answer the following questions about code hosting providers.
+
+a. List two popular code hosting platforms besides GitHub.
+	1: GitLab
+	2: Bitbucket
