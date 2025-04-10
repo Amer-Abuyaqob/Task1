@@ -53,4 +53,25 @@ True.
 
 A team can absolutely collaborate on a software project without relying on platforms like GitHub, GitLab, or Bitbucket by self-hosting their own version control system.
 
+*********************************************************************************
+Q4) What does the -u flag in the git push -u origin main command signify, and
+how does it impact the behavior of the git push and git pull commands in
+subsequent usage?
 
+The [-u] flag in the command [git push -u origin main] Links the local branch to the remote branch, telling Git:
+"Use origin/main as the default remote counterpart for this local branch."
+
+[git push] (without arguments)
+Automatically pushes changes to the tracked remote branch (origin/main).
+No need to specify origin main again.
+
+[git pull] (without arguments)
+Automatically fetches and merges changes from origin/main into your local branch.
+
+Key Benefits:-
+	
+	Simplifies Commands: No need to repeatedly specify the remote/branch.
+
+	Avoids Errors: Reduces mistakes from typos in remote/branch names.
+
+	Branch Awareness: git status will show if your local branch is ahead/behind its upstream counterpart.
