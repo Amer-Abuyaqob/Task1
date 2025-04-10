@@ -45,5 +45,12 @@ environments?
 	6: Forking & Cloning
 	7: Code Scanning
 
+c. True or False: A team can collaborate on a software project without relying
+on popular code hosting providers by setting up their own a self-hosted
+server for version control.
+
+True.
+
+A team can absolutely collaborate on a software project without relying on platforms like GitHub, GitLab, or Bitbucket by self-hosting their own version control system.
 
 
