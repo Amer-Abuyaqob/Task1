@@ -14,3 +14,14 @@ Saves (records) the staged changes into the local repository with a message desc
 
 d. git push:
 Uploads the committed changes from rthe local repository to a remote repository.
+
+*********************************************************************************
+Q2) 
+
+I disagree with Ahmed's statement
+
+New (untracked) files are not automatically included in commits unless explicitly added with [git add].
+
+The [git add] command stages changes, and allows to selectively choose which modifications to include in a commit.
+
+Without staging we risk committing unintended changes.
